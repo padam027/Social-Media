@@ -1,0 +1,62 @@
+.feed{
+     color: aliceblue;
+     margin-top: 80px;
+
+
+
+.container{
+        display: flex;
+        gap:20px;
+        justify-content: center;
+        padding: 10px;
+
+
+     
+        
+   
+     
+ .leftpart{
+     border-radius: 10px;
+     padding: 10px;
+      flex:3; 
+      display: flex;
+      flex-direction: column;
+      gap:20px;
+     
+      
+     
+    
+     }
+.rightpart{
+     margin-top: 8px;
+     border-radius: 10px;
+     color: black;
+   padding: 10px;
+   background-color: rgb(205, 203, 203);
+      flex: 1;
+      
+      
+
+      .following{
+          display: flex;
+          flex-direction: column;
+          gap:10px;
+          margin-top: 20px;
+          padding: 7px;
+
+
+          .suggestion{
+               padding: 7px;
+               margin-top: 30px;
+          }
+
+      }
+
+      
+      
+        
+     }
+
+}
+
+}

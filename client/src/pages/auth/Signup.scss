@@ -1,0 +1,93 @@
+.Signup{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url('https://pixelz.cc/wp-content/uploads/2018/11/ocean-wave-hawaii-united-states-uhd-4k-wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+.Signup-box{
+    width: 30%;
+    height: 70vh;
+    border: 1px solid rgb(244, 235, 235);
+    display: flex;
+    background-color: rgb(253, 251, 247);
+    border-radius: 10px;
+    box-shadow: 2px 2px -3px 10px white;
+    flex-direction: column;
+    margin-left: 50px;
+    
+}
+
+.Signup-form{
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    column-gap: 10px;
+}
+
+.header{
+    position: relative;
+    top:30px;
+    font-size: 2em;
+    align-self: center;
+}
+label,input{
+    width: 80%;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.Signup-para{
+    align-self: center;
+    font-size: 1rem;
+ font-weight: bold;
+}
+.submit{
+    background-color: rgba(4, 181, 7, 0.936);
+    font-size: 1.1rem;
+    color: aliceblue;
+    cursor: pointer;
+    border: 1px solid  rgba(6, 193, 24, 0.878); ;
+    
+}
+
+.submit:hover{
+
+    background-color: rgba(3, 136, 5, 0.889);
+    transition: 1s;
+
+}
+
+.link{
+   text-decoration: none;
+}
+.link:hover{
+    color: rgb(13, 121, 3);
+    transition: 0.77s;
+    text-decoration: underline;
+}
+input{
+    outline: none;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid  rgba(48, 49, 49, 0.878); ;
+
+
+}
+
+
+.eye {
+    font-size: 1.5rem;
+    position:relative;
+    bottom: 41px;
+    left: 168px;
+    cursor: pointer;
+}
+
+
+}

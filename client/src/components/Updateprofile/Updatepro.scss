@@ -1,0 +1,103 @@
+.updatepro{
+    margin-top: 80px;
+    padding-inline: 180px;
+
+
+    .container{
+        display: flex;
+        align-items: center;
+        gap:30px;
+        padding: 20px;
+        background-color: rgb(215, 213, 213);
+        color: aliceblue;
+        border-radius: 15px;
+
+        .left{
+            flex:1;
+            text-align: center;
+
+            .input-user-img{
+                display: flex;
+                justify-content:center;
+                align-items:center;
+
+
+                .labelImg{
+                    width: 170px;
+                    height: 220px;
+                    cursor: pointer;
+                    
+        
+
+
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+
+                    
+                }
+                .inputImg{
+
+                    display: none;
+                }
+            }
+        }
+
+        .right{
+            flex:3;
+
+            
+
+            .updateText{
+                width: 100%;
+                padding: 10px;
+                outline: none;
+                border-radius: 10px;
+                font-size: 1.2rem;
+                border: 1px solid grey;
+
+            }
+            .submition{
+                width: 100%;
+                padding: 10px;
+                font-size: 1.2rem;
+                cursor: pointer;
+            }
+
+            .del-btn{
+                background-color: rgb(219, 7, 49);
+                border: 1px solid  rgb(219, 7, 49);;
+                margin-top: 10px;
+                margin-left: 687px;
+                font-size: 1.2rem;
+                padding: 10px;
+            }
+            .del-btn:hover{
+                transition: 0.9s;
+                background-color:rgb(186, 8, 43);
+            }
+
+            .gender{
+                color: black;
+                 align-self: center;
+                margin-bottom: 10px;
+                
+                
+
+                select{
+                     padding: 7px;
+                     font-size: 1rem;
+                     border-radius: 5px;
+
+                }
+                
+            }
+
+           
+        }
+    }
+
+}
